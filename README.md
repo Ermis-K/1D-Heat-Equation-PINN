@@ -10,8 +10,8 @@ A Physics-Informed Neural Network (PINN) implementation for solving the one-dime
 |-----------------------|------------------------|
 | `pinn.py`             | Core PINN architecture |
 | `train_2.py`          | Training script (data loading, training loop) |
-| `sampling.py`         | Functions to sample collocation points, boundary, and initial-condition points |
-| `losses.py`           | Loss definitions: PDE residual loss, boundary loss, initial-condition loss |
+| `sampling.py`         | Functions to sample collocation points, boundary, and initial condition points |
+| `losses.py`           | Loss definitions: PDE residual loss, boundary loss, initial condition loss |
 | `plotting.py`         | Utility functions to visualize predicted vs true solutions |
 | `heat_data.mat`       | Reference / ground-truth data for benchmarking and error evaluation |
 | `results_heat.png`    | Example output plot of the predicted vs true solution |
